@@ -16,26 +16,35 @@ body {
 }
 .text {
     text-align: center;
-    width: 50vh;
+    width: 45vh;
     margin-right: auto;
     margin-left: auto;
     font-size: 1.07rem;
     margin-top: 4vh;
+    position: relative;
+    left: -0.2vh;
 }
 
 
 ion-icon {
     font-size: 5vh;
+    position: relative;
+    left: -11vh;
+    top: vh;
     
 }
 
-.links a {
+.git a {
     text-decoration: none;
     align-items: end;
     color: black;
     position: absolute;
-    right: 10%;
-    top: 35%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
 }
 
 .git {
@@ -48,13 +57,26 @@ ion-icon {
     border-radius: 12px;
     padding: 8px;
     transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    text-align: center;
+    line-height: 2;
 }
+
+
+.git p {
+    text-align: end;
+    margin-right: 2vh;
+}
+
+
 
 .git:hover {
     transform: scale(1.2);
 }
 
 #insta {
+    position: absolute;
+    right: -60%;
 }
 
 img:hover {
@@ -102,16 +124,16 @@ h1 {
 .projects #project3 {
     display: block;
     position: absolute;
-    height: 45vh;
+    height: 55vh;
+    width: 38vh;
     margin-top: 60vh;
-    right: 33%;
+    right: 42%;
     border-radius: 3vh;
-    margin-bottom: 15vh;
-    border-bottom-right-radius: 6vh;
-    border-bottom-left-radius: 6vh;
+    margin-bottom: 25vh;
     padding-bottom: 4vh;
     transition: all ease-in-out .3s;
     margin-bottom: 12vh;
+    padding-bottom: 12vh;
 }
 
 @media screen and (max-width: 900px) {
@@ -119,25 +141,39 @@ h1 {
         overflow-x: hidden;
     }
     .projects {
-        display: inline-block;
+        display: inline;
     }
     .firstProject {
-        position: absolute;
+        width: 30vh;
     }
     #project1 {
         margin-bottom: 25vh;
-        margin-right: ;
+        width: 35vh;
+        margin-left: 5vh;
+        height: 30vh;
     }
     #project3 {
         display: block;
         margin-top: 2vh;
         position: absolute;
         padding-top: 0;
-        top: 219vh;
-        left: 11vh;
+        top: 175vh;
+        left: 20vh;
+        margin-left: -15vh;
+        width: 35vh;
+        height: 1rem;
+        margin-bottom: 10vh;
     }
+
 }
 
 h1 {
     margin-bottom: 7vh;
 }
+
+#hr2{
+    position: relative;
+    bottom: -60vh;
+
+}
+
