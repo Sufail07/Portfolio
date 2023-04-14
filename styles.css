@@ -1,0 +1,140 @@
+#profile {
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 40vh;
+    margin-top: 3.2vh;
+    transition: all ease-in-out 0.3s;
+}
+body {
+    background-image: url(images/bg.jpg);
+    font-family: 'DM Sans', sans-serif;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+.text {
+    text-align: center;
+    width: 50vh;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.07rem;
+    margin-top: 4vh;
+}
+
+
+ion-icon {
+    font-size: 5vh;
+    
+}
+
+.links a {
+    text-decoration: none;
+    align-items: end;
+    color: black;
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}
+
+.git {
+    background-color: #eba99d;
+    position: relative;
+    width: 28vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    border-radius: 12px;
+    padding: 8px;
+    transition: all ease-in-out 0.3s;
+}
+
+.git:hover {
+    transform: scale(1.2);
+}
+
+#insta {
+}
+
+img:hover {
+    transform: scale(1.13);
+
+}
+hr {
+    background-color: #eba99d;
+    height: 1px;
+    border: none;
+    margin-top: 13vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.projects {
+
+    display: flex;
+    margin-top: 10vh;
+    width: 22vh;
+}
+
+#project1 {
+    position: relative;
+    display: inline-block;
+    height: 45vh;
+    margin-right: 30vh;
+    margin-left: 10vh;
+    border-radius: 3vh;
+    transition: all ease-in-out .3s;
+}
+
+#project1:hover {
+    transform: scale(1.04);
+}
+
+
+.firstProject {
+    margin-right: 120vh;
+}
+
+.projects #project3 {
+    display: block;
+    position: absolute;
+    height: 45vh;
+    margin-top: 60vh;
+    right: 33%;
+    border-radius: 3vh;
+    margin-bottom: 15vh;
+    border-bottom-right-radius: 6vh;
+    border-bottom-left-radius: 6vh;
+    padding-bottom: 4vh;
+    transition: all ease-in-out .3s;
+    margin-bottom: 12vh;
+}
+
+@media screen and (max-width: 900px) {
+    .projects {
+        display: inline-block;
+    }
+    .firstProject {
+        position: absolute;
+    }
+    #project1 {
+        margin-bottom: 25vh;
+        margin-right: ;
+    }
+    #project3 {
+        display: block;
+        margin-top: 2vh;
+        position: absolute;
+        padding-top: 0;
+        top: 219vh;
+        left: 11vh;
+    }
+}
+
+h1 {
+    margin-bottom: 7vh;
+}
