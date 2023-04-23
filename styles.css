@@ -23,6 +23,7 @@ body {
     margin-top: 4vh;
     position: relative;
     left: -0.2vh;
+    color: white;
 }
 
 
@@ -48,7 +49,7 @@ ion-icon {
 }
 
 .git {
-    background-color: #eba99d;
+    background-color: white;
     position: relative;
     width: 28vh;
     margin-left: auto;
@@ -84,7 +85,7 @@ img:hover {
 
 }
 hr {
-    background-color: #eba99d;
+    background-color: #003587;
     height: 1px;
     border: none;
     margin-top: 13vh;
@@ -107,7 +108,7 @@ h1 {
 }
 
 span {
-    color: #2B3467;
+    color: #ec1d76;
     font-size: larger;
     font-weight: 600;
 }
@@ -179,6 +180,7 @@ span {
 
 h1 {
     margin-bottom: 7vh;
+    color: white;
 }
 
 #hr2{
