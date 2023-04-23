@@ -8,7 +8,7 @@
     transition: all ease-in-out 0.3s;
 }
 body {
-    background-image: url(images/background.jpg);
+    background-image: url(images/bg.jpg);
     font-family: 'DM Sans', sans-serif;
     background-size: cover;
     background-position: center;
